@@ -1,0 +1,207 @@
+.page-container {
+    min-height: 100vh;
+    background-color: #f9fafb;
+    padding: 24px;
+}
+
+.main-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-links {
+    margin-left: 32px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 24px;
+}
+
+.nav-links a:hover {
+    color: #047857;
+}
+
+.activity-section {
+
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.activity-title {
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.activity-title span {
+    color: #047857;
+    font-size: 22;
+}
+
+.inform-text {
+    color: black;
+    margin-bottom: 16px;
+}
+
+.button-group {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.button-primary {
+    
+    width: 200px;
+        height: 50px;
+        padding: 15px 15px;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        background-color: rgba(0, 158, 128, 1);
+        border: none;
+        cursor: pointer;
+        border-radius: 73px;
+}
+
+.button-primary:hover {
+    background-color: #047857;
+}
+
+.button-secondary {
+    width: 200px;
+    background-color: rgb(71, 94, 86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        height: 50px;
+       
+        font-size: 18px;
+        font-weight: 600;
+        color: rgba(0, 158, 128, 1);
+        background-color: transparent;
+        border: 4px solid rgba(0, 158, 128, 1);
+        border-radius: 73px;
+        cursor: pointer;
+}
+
+.button-secondary:hover {
+    background-color: #f3f4f6;
+}
+
+.acceptance-card {
+    border: 3px solid #047857;
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    position: relative;
+}
+
+.profile-image {
+    position: absolute;
+    top: -16px;
+    right: 32px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.card-content {
+    margin-top: 16px;
+}
+
+.card-content p {
+    margin-bottom: 8px;
+   
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-group {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.contact-button {
+    width:200px;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 158, 128, 1);
+    background-color: transparent;
+    border: 4px solid rgba(0, 158, 128, 1);
+    border-radius: 73px;
+    cursor: pointer;
+}
+
+.contact-button.active {
+    width: 200px;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(0, 158, 128, 1);
+    border: none;
+    cursor: pointer;
+    border-radius: 73px;
+   
+}
+
+.contact-button:hover {
+    background-color: #047857;
+    color: white;
+}
+
+.input-container {
+    margin-bottom: 24px;
+}
+
+.contact-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px 12px;
+    border: 1px solid #047857;
+    border-radius: 63px;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.contact-input:focus {
+    outline: none;
+    border-color:#047857;
+}
+
+p {
+  
+    font-size: 22px;
+}
